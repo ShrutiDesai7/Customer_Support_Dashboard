@@ -1,0 +1,246 @@
+.message-thread-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0f3f7;
+}
+
+.message-thread-container h3 {
+    color: #2c3e50;
+    margin: 0 0 25px 0;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+.messages-list {
+    margin-bottom: 30px;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f8fafc;
+}
+
+.no-messages {
+    text-align: center;
+    color: #999;
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+.message {
+    margin-bottom: 20px;
+    padding: 16px;
+    border-left: 4px solid #e1e8ed;
+    background-color: white;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.message:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.message.reply {
+    border-left-color: #667eea;
+    background-color: #f0f3ff;
+}
+
+.message.note {
+    border-left-color: #ffd93d;
+    background-color: #fffef0;
+}
+
+.message.status_update {
+    border-left-color: #6bcf7f;
+    background-color: #f0fff6;
+}
+
+.message.assignment {
+    border-left-color: #ff922b;
+    background-color: #fff7f0;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.message-header strong {
+    color: #2c3e50;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.message-type {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.message-header small {
+    color: #999;
+    font-size: 12px;
+}
+
+.message-content {
+    color: #666;
+    line-height: 1.6;
+    font-size: 13px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.reply-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e1e8ed;
+}
+
+.reply-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reply-form-container textarea {
+    padding: 12px 14px;
+    border: 2px solid #404040;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 13px;
+    resize: vertical;
+    min-height: 110px;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.reply-form-container textarea:focus {
+    border-color: #00d9ff;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.15);
+}
+
+.reply-form-container button {
+    background: #00d9ff;
+    color: #0a0a0a;
+    padding: 11px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.reply-form-container button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 217, 255, 0.4);
+    background: #00b8d4;
+}
+
+.reply-form-container button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.note-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.toggle-note-btn {
+    background-color: #00d9ff;
+    color: #0a0a0a;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.toggle-note-btn:hover {
+    background-color: #00b8d4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 217, 255, 0.3);
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-left: 4px solid #00d9ff;
+    border-radius: 6px;
+}
+
+.note-form textarea {
+    padding: 12px 14px;
+    border: 2px solid #404040;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 13px;
+    resize: vertical;
+    min-height: 90px;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.note-form textarea:focus {
+    border-color: #00d9ff;
+    box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.15);
+}
+
+.note-form button {
+    background-color: #00d9ff;
+    color: #0a0a0a;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.note-form button:hover:not(:disabled) {
+    background-color: #00b8d4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 217, 255, 0.3);
+}
+
+.error-message {
+    background-color: #fee;
+    color: #c33;
+    padding: 12px 14px;
+    border-radius: 6px;
+    border-left: 4px solid #ff6b6b;
+    font-size: 13px;
+}

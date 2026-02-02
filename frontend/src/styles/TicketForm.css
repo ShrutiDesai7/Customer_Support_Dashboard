@@ -1,0 +1,99 @@
+.ticket-form-container {
+    background: linear-gradient(135deg, #1a1a1a 0%, #262626 100%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ticket-form-container h3 {
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+.ticket-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #d9d9d9;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    padding: 12px 14px;
+    border: 2px solid #404040;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder,
+.form-group select::placeholder {
+    color: #808080;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #00d9ff;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.15);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.submit-btn {
+    background: #00d9ff;
+    color: #0a0a0a;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    align-self: flex-start;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.submit-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 217, 255, 0.4);
+    background: #00b8d4;
+}
+
+.error-message {
+    background-color: #3d1f1f;
+    color: #ff9999;
+    padding: 12px 14px;
+    border-radius: 6px;
+    border-left: 4px solid #ff6b6b;
+    font-size: 13px;
+}

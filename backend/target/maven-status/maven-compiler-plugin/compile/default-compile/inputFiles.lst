@@ -1,0 +1,15 @@
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\config\WebConfig.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\controller\MessageController.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\controller\TicketController.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\controller\UserController.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\model\Message.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\model\Ticket.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\model\User.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\repository\MessageRepository.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\repository\TicketRepository.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\repository\UserRepository.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\service\MessageService.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\service\TicketService.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\service\UserService.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\SupportDeskApplication.java
+C:\Users\shruti\Desktop\VScode-projects\zendesk\backend\src\main\java\com\supportdesk\util\JwtTokenProvider.java
