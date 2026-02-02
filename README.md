@@ -25,6 +25,12 @@ A full-stack cloud-based customer support platform where customers can raise sup
   - User authentication and registration
   - Responsive UI
 
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Create Ticket
+![Customer Dashboard](screenshots/ticket.png)
+
 ## Tech Stack
 
 ### Backend
@@ -286,3 +292,4 @@ MIT License - Feel free to use this project for learning and development.
 ## Support
 
 For questions or issues, refer to the code comments and the project structure documentation.
+
